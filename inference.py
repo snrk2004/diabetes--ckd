@@ -39,7 +39,7 @@ app = Flask(__name__)
 CORS(app)
 
 # ── Load all saved artefacts ─────────────────────────────────────────────────
-MODEL_DIR = r"D:\FINAL_INTERNSHIP\saved_models"
+MODEL_DIR = r"saved_models"
 
 # ── Version-safe imputer wrapper ────────────────────────────────────────────
 # Root cause: SimpleImputer pickled with sklearn < 1.4 is missing the internal
